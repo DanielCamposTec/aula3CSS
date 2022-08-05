@@ -1,0 +1,137 @@
+/*comentário no css*/
+
+:root { 
+--corprincipal: rgb(71, 111, 138);
+--corsecudaria: rgb(55, 57, 196);
+
+}
+
+/*cria uma classe inteira para mudar tudo dentro de onde foi colocada, neste caso h3 e h4*/
+.laranja {
+
+    color: orange;
+
+
+
+}
+
+
+body {
+color:dimgrey;
+margin: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+background-color: var(--corprincipal);
+margin: 0px;
+padding: 40px;
+color:white;
+text-align: center;
+
+}
+
+nav{
+background-image:url('../images/linguagens-front-end.webp');
+background-position: center;
+width: 100%;
+height: 400px;
+
+}
+
+article {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+}
+
+#article1:hover{
+
+    background-color: var(--corprincipal);
+    color:white;
+
+
+
+}
+
+h3 {
+
+    color:var(--corsecudaria);
+    height: 50px;
+        
+}
+
+p { 
+    background-color: rgb(32, 72, 184);
+padding: 15px;
+text-align: justify;
+border-style: solid;
+border-width: 1px;
+border-color: rgb(11, 83, 88);
+border-radius: 10px;
+height: 150px;
+}
+
+article > h4 {
+
+color: rgb(0, 88, 59);
+border-bottom: 2px solid rgb(rgb(12, 65, 82));
+}
+
+#article2:hover {
+
+    background-color: rgb(55, 119, 161);
+    color:white;
+}
+
+#article3:hover{
+
+    background-color: rgb(7, 66, 105);
+    color:white;
+
+}
+
+img {
+margin: auto;
+display: block;
+}
+
+a {
+text-decoration: none;
+background-color:  rgb(228, 233, 247);
+color:rgb(14, 65, 88) ;
+padding: 10px;
+margin-right: 5px;
+border-style: 2px;
+border-width: 1px;
+border-color: rgb(11, 83, 88);
+
+}
+
+a:hover {
+
+    background-color:  rgb(228, 247, 238);
+color:rgb(10, 23, 29) ;
+border-style: 2px;
+border-width: 1px;
+border-color: rgb(10, 26, 27);
+font-size: 15px;
+}
+
+footer {
+
+background-color: rgb(rgb(70, 124, 20));
+padding: 50px;
+text-align: center;
+
+
+}
+
+ul {
+
+    height: 150px;
+
+}
+
